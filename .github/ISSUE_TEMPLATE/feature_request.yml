@@ -1,7 +1,7 @@
 name: Feature Request
 description: Request a new feature
 title: "[FR]: "
-labels: ["feature"]
+labels: ["enhancement"]
 assignees:
   - jschenke488
 body:
