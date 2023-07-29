@@ -1,0 +1,21 @@
+name: Feature Request
+description: Request a new feature
+title: "[FR]: "
+labels: ["feature"]
+assignees:
+  - jschenke488
+body:
+  - type: textarea
+    id: description-of-feature
+    attributes:
+      label: What should the feature be?
+      description: Describe the feature in detail
+    validations:
+      required: true
+  - type: textarea
+    id: existing-implementations
+    attributes:
+      label: If applicable, what are some existing implementations?
+      description: For example, link a plugin on Hangar the adds the feature you want
+    validations:
+      required: false
